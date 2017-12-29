@@ -24,7 +24,9 @@ public class SbController {
 	 *  spring.datasource.url=jdbc:mysql://localhost/food
 		spring.datasource.username=root
 		spring.datasource.password=123456
+		
 		spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+		
 	 */
 	@Autowired
 	EmpService service;
